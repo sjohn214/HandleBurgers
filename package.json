@@ -1,0 +1,25 @@
+{
+  "name": "HandleBurgers",
+  "version": "1.0.0",
+  "description": "The purpose of this application is to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. This project will follow the MVC design pattern by using Node and MySQL to query and route data in the application, and Handlebars to generate the HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjohn214/HandleBurgers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjohn214/HandleBurgers/issues"
+  },
+  "homepage": "https://github.com/sjohn214/HandleBurgers#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
