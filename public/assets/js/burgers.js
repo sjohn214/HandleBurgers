@@ -9,7 +9,7 @@ $(function() {
       };
   
       // Send the PUT request.
-      $.ajax("/api/burgers/" + id, {
+      $.ajax("/burgers/devoured" + id, {
         type: "PUT",
         data: newlyEaten
       }).then(
@@ -31,7 +31,7 @@ $(function() {
       };
   
       // Send the POST request.
-      $.ajax("/api/burgers", {
+      $.ajax("/burgers/create", {
         type: "POST",
         data: newBurger
       }).then(
