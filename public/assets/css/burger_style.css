@@ -4,3 +4,11 @@ body {
 img {
     width: 20%;
 }
+.title-pte {
+    color: rgb(12, 30, 70);
+    font-size: 12px;
+}
+.title-eaten {
+    color: rgb(196, 24, 1);
+    font-size: 12px;
+}
