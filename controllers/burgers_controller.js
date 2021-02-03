@@ -6,10 +6,6 @@ var burger = require('../models/burger.js');
 
 // Routes/logic
 
-//Redirect index
-router.get('/index',function(req,res){
-    res.redirect('/index');
-});
 
 // Renders burgers to DOM
 router.get("/", function(req, res){
@@ -25,24 +21,24 @@ router.get("/", function(req, res){
 // Post route create a burger
 router.post("/burgers/create", function(req, res){
     burger.create([
-        "name", "devoured"
+        "burger_name", "devoured"
     ], [
-        req.body.burger_name, req.body.devoured
+        req.body.name, false
     ], function(result){
-        res.redirect('/index');
+        res.json(result);
     });
 });
 
 
 // Post route devour a burger
-router.post("/burgers/devoured/:id", function(req, res){
+router.put("/burgers/devoured/:id", function(req, res){
     var condition = "id =" + req.params.id;
     console.log("condition",condition);
 
     burger.update({
        devoured: req.body.devoured
     }, condition, function(result){
-        res.redirect('/index');
+        res.json(result);
     });
 });
 

@@ -11,8 +11,8 @@
 		<!-- Burger Image -->
 		<center>
 			<div class="row">
-				<img src="/assets/img/tofuBurger.png">
-				<img src="/assets/img/salmonBurger.png">
+				<img class="img" src="/assets/img/tofuBurger.png">
+				<img class="img" src="/assets/img/salmonBurger.png">
 			</div>
 		</center>
 
@@ -31,7 +31,6 @@
   {{#each burgers}}
     {{#unless devoured}}
       {{> burger-block devoured=true}}
-  <button class="btn" type="submit">Devour It</button>
     {{/unless}}
   {{/each}}
 </ul>
@@ -49,12 +48,10 @@
 			</div>
 
 			<div class="form-group">
-				<label for="devoured">Devoured?</label><br>
-				<input type="radio" name="eated" value="1" checked> Devoured!<br>
-				<input type="radio" name="not_eaten" value="0"> Not Eaten!<br>
-			</div>
 
-			<button type="submit">Devour It</button>
+				<button type="submit">Devour It</button>
+				
+			</div>
 		</form>
 
 	</div>
@@ -63,16 +60,18 @@
 
 
 <!--Right side Devoured burgers-->
-<div class="col-md-6">
+<div >
 <h3 class="title-eaten">Burgers: EATEN!</h3>
 <div id="eaten">
 
 <ul>
+	
   {{#each burgers}}
     {{#if devoured}}
       {{> burger-block devoured=false}}
     {{/if}}
   {{/each}}
+ 
 </ul>
 </div>
 </div>

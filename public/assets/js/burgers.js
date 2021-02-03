@@ -9,7 +9,7 @@ $(function() {
       };
   
       // Send the PUT request.
-      $.ajax("/burgers/devoured" + id, {
+      $.ajax("/burgers/devoured/" + id, {
         type: "PUT",
         data: newlyEaten
       }).then(
@@ -27,7 +27,7 @@ $(function() {
   
       var newBurger = {
         name: $("#bur").val().trim(),
-        devoured: $("[name=devoured]:checked").val().trim()
+        devoured: false
       };
   
       // Send the POST request.
