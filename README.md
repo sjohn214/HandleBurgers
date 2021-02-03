@@ -20,10 +20,10 @@ To create an application that can be used to track burgers that will be prepared
   ![models file burger](public/assets/img/burgerJS.png)
 
 * Demo gif
-![HandleBurgers gif](.gif)
+![HandleBurgers gif](public/assets/img/HandleBurger.gif)
 
 # Live URL:
-<a href="">HandleBurgers Youtube Video</a>
+<a href="https://youtu.be/MJ1nFuuw6qM">HandleBurgers Youtube Video</a>
 
 <a href="https://github.com/sjohn214/HandleBurgers.git">HandleBurgers GitHub Repo</a>
 
