@@ -9,13 +9,17 @@ To create an application that can be used to track burgers that will be prepared
 
 # Demo Features:
 * The following image and gif shows the web application's appearance and functionality:
-  
-![db file schema/seeds]()
 
-![config file connection/orm]()
+* DB: sql files 
+![db file schema/seeds](public/assets/img/sqlFiles.png)
 
-![models file burger]()
+* Config: connection/orm.js
+![config file connection/orm](public/assets/img/configFiles.png)
 
+* Model: burger.js 
+  ![models file burger](public/assets/img/burgerJS.png)
+
+* Demo gif
 ![HandleBurgers gif](.gif)
 
 # Live URL:
@@ -31,15 +35,14 @@ To create an application that can be used to track burgers that will be prepared
 
   * main/index.handlebars
   
-  ![main]()
+  ![main/index](public/assets/img/mainIndex.png)
 
-  ![index]()
 
 * 5 Javascript pages
-
+  
   * server.js
   
-![server file]()
+![server file](public/assets/img/serverPic.png)
 
 * 1 Style Framework page
   * burger_style.css
