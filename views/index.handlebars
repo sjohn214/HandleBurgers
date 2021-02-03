@@ -1,4 +1,22 @@
+<div class="page-name">
+
 <h1>Eat-A-Burger!</h1>
+
+</div>
+<!-- Page Container -->
+	<div class="container">
+
+		<br>
+
+		<!-- Burger Image -->
+		<center>
+			<div class="row">
+				<img src="/assets/img/tofuBurger.png">
+				<img src="/assets/img/salmonBurger.png">
+			</div>
+		</center>
+
+		<br>
 
 <!--Left side burgers are ready to be eaten-->
 <div class="row">
@@ -6,7 +24,8 @@
 <div class="col-md-6">
 <h3 class="title-pte">Burgers: Prepared to Eat!</h3>
 <div id="prepared-to-eat">
-
+</center>
+</div>
 
 <ul>
   {{#each burger}}
@@ -19,6 +38,28 @@
 
 </div>
 </div>
+
+
+		<h4>ADD a Burger</h4>
+		<form class="create-form">
+
+			<div class="form-group">
+				<label for="bur">Burger Name:</label>
+				<input type="text" id="bur" name="name">
+			</div>
+
+			<div class="form-group">
+				<label for="devoured">Devoured?</label><br>
+				<input type="radio" name="eated" value="1" checked> Devoured!<br>
+				<input type="radio" name="not_eaten" value="0"> Not Eaten!<br>
+			</div>
+
+			<button type="submit">Devour It</button>
+		</form>
+
+	</div>
+
+
 
 
 <!--Right side Devoured burgers-->
@@ -36,22 +77,8 @@
 </div>
 </div>
 
-</center>
-</div>
 
-<h2>ADD a Burger</h2>
-<form class="create-form">
 
-  <div class="form-group">
-    <label for="bur">Burger Name:</label>
-    <input type="text" id="bur" name="name">
-  </div>
 
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="eated" value="1" checked> Devoured!<br>
-    <input type="radio" name="not_eaten" value="0"> Not Eaten!<br>
-  </div>
 
-  <button type="submit">Devour It</button>
-</form>
+

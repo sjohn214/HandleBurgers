@@ -1,14 +1,28 @@
-body {
+body.container {
+    margin: auto;
+    padding: 15px;
     background-color: rgb(248, 244, 16);
+}
+.page-name{
+    color: rgb(84, 2, 160);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
 }
 img {
     width: 20%;
+    margin: 10%;
+    border: black 2px;
 }
 .title-pte {
     color: rgb(12, 30, 70);
     font-size: 12px;
+    text-align: left;
 }
 .title-eaten {
     color: rgb(196, 24, 1);
     font-size: 12px;
+    position: absolute;
+    right: -200px;
+    top: -255px;
 }
