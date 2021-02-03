@@ -28,7 +28,7 @@
 </div>
 
 <ul>
-  {{#each burger}}
+  {{#each burgers}}
     {{#unless devoured}}
       {{> burger-block devoured=true}}
   <button class="btn" type="submit">Devour It</button>
@@ -68,7 +68,7 @@
 <div id="eaten">
 
 <ul>
-  {{#each burger}}
+  {{#each burgers}}
     {{#if devoured}}
       {{> burger-block devoured=false}}
     {{/if}}
