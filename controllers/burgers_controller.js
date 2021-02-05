@@ -44,4 +44,6 @@ router.put("/burgers/devoured/:id", function(req, res){
 
 // Post route to remove previously devoured burgers
 // router.delete("/burgers/delete")
-// module.exports = router;
+
+
+module.exports = router;
