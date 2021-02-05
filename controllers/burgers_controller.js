@@ -42,4 +42,6 @@ router.put("/burgers/devoured/:id", function(req, res){
     });
 });
 
-module.exports = router;
+// Post route to remove previously devoured burgers
+// router.delete("/burgers/delete")
+// module.exports = router;
