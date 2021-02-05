@@ -26,6 +26,7 @@ To create an application that can be used to track burgers that will be prepared
 <a href="https://youtu.be/MJ1nFuuw6qM">HandleBurgers Youtube Video</a>
 
 <a href="https://github.com/sjohn214/HandleBurgers.git">HandleBurgers GitHub Repo</a>
+
 <a href="https://handleburgers1.herokuapp.com/">HandleBurgers Heroko App</a>
 
 # Summary
